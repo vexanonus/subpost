@@ -1,6 +1,9 @@
+
 # subpost: share useful things with a subreddit, with a person checking every post
 
 LAST UPDATED 17 November 2026
+
+<img width="1672" height="941" alt="Subpost_ Human-Curated Resource Board" src="https://github.com/user-attachments/assets/23ef2a9e-62be-4480-9099-7181959edb36" />
 
 Small communities live on good posts. The people who run them rarely have time to post. subpost lets a moderator queue up something worth sharing (a free tool, a guide, a support resource), has a second person read and approve it, then posts it at a calm pace. When people reply, subpost lists the replies so a person answers each one. A person reads every post before it goes out and answers every reply.
 
