@@ -4,7 +4,7 @@ subpost is one Python file (`subpost.py`), its tests (`test.py`), and a `queue/`
 
 ## The flow
 
-1. **Draft.** A moderator writes a post for one subreddit and says why it helps that community (`--why`).
+1. **Draft.** A person writes a post for one subreddit and says why it helps that community (`--why`).
 2. **Approve.** A second person reads it and approves it by name. Drafts nobody approves never post.
 3. **Post.** `run post` sends approved posts, ten minutes apart.
 4. **Answer.** `run replies` lists replies. A person answers each one on Reddit, in their own words.
