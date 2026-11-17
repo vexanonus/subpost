@@ -1,0 +1,11 @@
+#!/bin/sh
+# run: one entry point for subpost. Works from anywhere.
+#   run test             the tests
+#   run draft|list|approve|post|replies ...   see README.md
+ROOT=$(cd "$(dirname "$0")" && pwd)
+cmd=${1:-help}; [ $# -gt 0 ] && shift
+case "$cmd" in
+  test) cd "$ROOT" && python3 -m unittest test -v ;;
+  draft|list|approve|post|replies) exec python3 "$ROOT/subpost.py" "$cmd" "$@" ;;
+  *) sed -n '2,4p' "$0" | sed 's/^# \{0,1\}//' ;;
+esac
