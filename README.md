@@ -28,7 +28,7 @@ Python 3.9 or newer, nothing to install.
 export REDDIT_CLIENT_ID=... REDDIT_SECRET=... REDDIT_USERNAME=... REDDIT_PASSWORD=...
 ./run draft boardgames "A two-player game for rainy days" --url https://example.com --why "Fits the weekly recommendations thread"
 ./run list
-./run approve 2026-11-17-rpg-1a2b3c --by Alex
+./run approve 2026-11-17-boardgames-1a2b3c --by Alex
 ./run post
 ./run replies
 ./run test
